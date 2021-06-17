@@ -1,0 +1,15 @@
+网易新闻阅读器
+实现的功能：
+    1、打开首页，可以显示界面
+
+问题：
+Android P http网络请求的问题
+
+Google表示，为保证用户数据和设备的安全，针对下一代 Android 系统(Android P) 的应用程序，将要求默认使用加密连接，这意味着 Android P 将禁止 App 使用所有未加密的连接，因此运行 Android P 系统的安卓设备无论是接收或者发送流量，未来都不能明码传输，需要使用下一代(Transport Layer Security)传输层安全协议，而 Android Nougat 和 Oreo 则不受影响。
+
+因此在Android P 使用HttpUrlConnection进行http请求会出现以下异常
+————————————————
+版权声明：本文为CSDN博主「yonbor605」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/yonbor605/article/details/82223882
+
+2、item的布局要
